@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUR-TRAVEL</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">Trang chủ</a>
+        <a href="#book">Đặt trước</a>
+        <a href="#packages">Gói sản phẩm </a>
+        <a href="#gallery">Bộ sưu tập</a>
+        <a href="#contact">liên hệ</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>cuộc phiêu lưu là đáng giá</h3>
+        <p>khám phá những địa điểm mới với chúng tôi, cuộc phiêu lưu đang chờ đợi</p>
+        <a href="#" class="btn">khám phá nhiều hơn</a>
+    </div>
+
+    
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>Đ</span>
+        <span>Ặ</span>
+        <span>T</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>G</span>
+        <span>A</span>
+        <span>Y</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Tên Địa Điểm</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>Số Lượng Khách Hàng</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Ngày Đến</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Ngày Đi</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>G</span>
+        <span>Ó</span>
+        <span>I</span>
+        <span>S</span>
+        <span>Ả</span>
+        <span>N</span>
+        <span>H</span>
+        <span>À</span>
+        <span>N</span>
+        <span>G</span>
+        
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Đến Mumbai là đến với những tòa nhà cao tầng lộng lẫy thời Victoria với những phong cách kiến trúc cực kỳ độc đáo và quyến rũ...</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">Đặt ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Không những nổi tiếng với những bãi biển thơ mộng, Hawaii còn là một nơi có nhiều điểm tham quan du lịch hấp dẫn, là nơi thu hút khách du lịch nhiều nhất trên đất nước Mỹ...</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">Đặt Ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>10 điểm đến du lịch Sydney dưới đây là linh hồn cho thành phố lớn nhất, lâu đời nhất và nổi tiếng nhất nước Úc này...</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">Đặt Ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Paris được mệnh danh là ” Kinh đô ánh sáng”. Bởi vì nó luôn hấp dẫn du khách bằng sự kết hợp hài hòa giữa văn hóa đậm chất với nên văn hoá, văn minh hiện đại...</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">Đặt Ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>Bất cứ ai muốn tìm một địa điểm du lịch ở Tokyo Nhật Bản chắc chắn đều muốn một lần đặt chân đến những địa điểm Vietmart sẽ giới thiệu trong bài viết này. Thủ đô Tokyo không chỉ là trung tâm kinh tế của nước Nhật mà còn có sự giao thoa hài hòa về văn hóa giữa nét hiện đại và truyền thống tạo nên vẻ đẹp đặc biệt của nó trong mắt du khách quốc tế. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">Đặt Ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-6.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Egypt </h3>
+                <p>Du lịch Ai Cập thăm quanh thắng cảnh, kỳ quan thế giới, đi mua sắm, cưỡi lạc đà, tìm hiểu văn hóa, khám phá bí ẩn của nền văn hóa sông Nile sẽ mang lại cho du khách nhiều trải nghiệm tuyệt vời nhất...</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">Đặt Ngay</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>D</span>
+        <span>Ị</span>
+        <span>C</span>
+        <span>H</span>
+        <span>V</span>
+        <span>Ụ</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Khách Sạn Bình Dân</h3>
+            <p>khách sạn cần được chăm chút cẩn thận, cung cấp dịch vụ chất lượng cao, nội thất sang trọng, sạch sẽ, sắp xếp ngăn nắp , vị trí thuận tiện cho việc đi lại , phong cách phục vụ chuyên ngiệp </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Đồ Ăn Thức Uống</h3>
+            <p>Thực đơn phong phú , bổ dưỡng , đảm bảo sức khỏe,... </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Hướng Dẫn An Toàn</h3>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Vòng Quanh Thế Giới</h3>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Du Lịch Nhanh Nhất</h3>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Cuộc Phiêu Lưu Hấp Dẫn</h3>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>B</span>
+        <span>Ộ</span>
+        <span>S</span>
+        <span>Ư</span>
+        <span>U</span>
+        <span>T</span>
+        <span>Ậ</span>
+        <span>P</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+           
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+           
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+           
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>L</span>
+        <span>I</span>
+        <span>Ê</span>
+        <span>N</span>
+        <span>H</span>
+        <span>Ệ</span>
+        
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="họ và tên">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="số điện thoại">
+                <input type="text" placeholder="chủ đề">
+            </div>
+            <textarea placeholder="nhập tin nhắn" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="gửi tin nhắn">
+        </form>
+
+    </div>
+    
+</section>
+
+
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        
+        <div class="box">
+            <h3>Chi Nhánh</h3>
+            <a href="#">Ấn Độ</a>
+            <a href="#">Hoa kỳ</a>
+            <a href="#">Nhật Bản</a>
+            <a href="#">Pháp</a>
+        </div>
+        <div class="box">
+            <h3>Đường Dẫn Nhanh</h3>
+            <a href="#">Trang Chủ</a>
+            <a href="#">Đặt trước</a>
+            <a href="#">Gói Hàng</a>
+            <a href="#">Bộ Sưu Tập</a>
+            <a href="#">Liên Hệ</a>
+        </div>
+        <div class="box">
+            <h3>Theo dõi chúng tôi</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    
+
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
